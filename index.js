@@ -6,7 +6,7 @@ const bot = new commando.Client({
 bot.on("ready", function(){
     bot.user.setPresence({
         game: {
-            name: 'all members',
+            name: '1play',
             type: 'WATCHING'
         },
         status: 'online'
